@@ -1,0 +1,16 @@
+.Config {
+    background-color: #fff;
+    width: 60vw;
+    height: 50vh;
+    margin: 50px;
+    border-radius: 4px;
+
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.personalize {
+    border-bottom: 2px solid #cecece;
+    max-width: 40vw;
+}

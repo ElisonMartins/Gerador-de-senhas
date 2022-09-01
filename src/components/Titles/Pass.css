@@ -1,0 +1,11 @@
+.pass {
+    background-color: #fff;
+    width: 60vw;
+    height: 20vh;
+    border-bottom: 8px solid green;
+    border-radius: 4px;
+
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

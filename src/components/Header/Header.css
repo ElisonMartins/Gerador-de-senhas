@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    background-color: #fff;
+    height: 40px;
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    width: 15vw;
+    display: flex;
+	justify-content: space-between;
+    align-items: center;
+
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
