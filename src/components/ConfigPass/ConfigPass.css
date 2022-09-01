@@ -12,5 +12,12 @@
 
 .personalize {
     border-bottom: 2px solid #cecece;
-    max-width: 40vw;
+    max-width: 100%;
+}
+
+/*.Marks {}*/
+
+.check {
+    display: flex;
+    justify-content: flex-end;
 }

@@ -1,18 +1,23 @@
-import { Box, Link, Typography, FormGroup, FormControlLabel, Checkbox  } from '@material-ui/core'
+import { Box, Link, Typography, FormGroup, FormControlLabel, Checkbox} from '@material-ui/core'
+import CheckBox from '../CheckBox/CheckBox.jsx'
+import RadioButton from '../RadioButton/RadioButton.jsx'
+import NumPass from '../NumPass/NumPass.jsx'
 import './ConfigPass.css'
 
 function Config() {
 
   return (
-    <Box component='header' className="Config">
+    <Box className="Config">
         <Typography variant='h4' className='personalize'>Personalize sua senha</Typography>
-        <FormGroup>
-            <FormControlLabel control={<Checkbox defaultChecked />} label="Letra Maiuscula" />
-            <FormControlLabel control={<Checkbox defaultChecked />} label="Letra minuscula" />
-            <FormControlLabel control={<Checkbox defaultChecked />} label="Numeros" />
-            <FormControlLabel control={<Checkbox defaultChecked />} label="Simbolos" />
-        </FormGroup>
-
+        <Box className='Marks'>
+            <Box>
+                <NumPass />
+            </Box>
+            <Box className='check'>
+                <RadioButton />
+                <CheckBox />
+            </Box>
+        </Box>
     </Box>
   )
 }
