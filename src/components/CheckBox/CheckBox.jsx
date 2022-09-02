@@ -1,5 +1,5 @@
 import { Box, Link, Typography, FormGroup, FormControlLabel, Checkbox} from '@material-ui/core'
-import './Checkbox.css'
+import './CheckBox.css'
 
 function CheckBox() {
 
